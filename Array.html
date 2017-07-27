@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	</head>
+	<body>
+		<script>
+			var colors = ["Purple","Blue","Grey","Black","Green"];
+
+			function loop(x) {
+				for(i=0; i<x.length; i++) {
+  				num = i + 1;
+    			suf = "";
+    			if (num == 1){
+    				suf = "st";
+    			}
+    			else if (num == 2){
+    				suf = "nd";
+    			}
+    			else if (num == 3){
+    				suf = "rd";
+    			}
+    			else {
+    				suf = "th";
+    			}
+  				ans = "My " + num + suf +" color is " + x[i];
+    			console.log(ans);
+  			}
+			}
+
+			loop(colors);
+		</script>
+	</body>
+</html>
