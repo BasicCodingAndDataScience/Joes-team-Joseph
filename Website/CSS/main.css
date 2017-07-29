@@ -1,0 +1,180 @@
+body{
+  margin:0px;
+}
+.header {
+  background-image: url("../img/earth.jpg");
+  background-position: center;
+  background-size: cover;
+  width:100%;
+  padding:30px;
+  padding-bottom:100px;
+}
+
+#title {
+  text-align:center;
+  font-family: "Oswald";
+  font-size: 70px;
+  font-weight: 400;
+  color:#cccccc;
+  text-shadow: 4px 4px 4px #8c8c8c;
+  opacity: 0.8;
+
+}
+
+h6 {
+  text-align: center;
+  color:#f2f2f2;
+  font-size: 25px;
+  font-family: "Raleway";
+  margin-top:30px;
+  line-height: 40px;
+}
+
+.navbar navbar-default {
+  margin:0px;
+}
+
+img {
+  width:100%;
+}
+
+html,body {
+  height:100%;
+  width:100%;
+}
+
+.center {
+  background-image: url('../img/background.jpg');
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  padding-bottom:20px;
+  padding-top: 90px;
+
+}
+
+.navbar navbar-inverse {
+  margin-bottom: 0px;
+}
+#myChart {
+  height:500px;
+  width:65%;
+  min-height:150px;
+  border: 10px inset #f2f2f2;
+  border-radius:9px;
+  margin-bottom: 10px;
+}
+
+#pieChart {
+  height:500px;
+  width:65%;
+  min-height:250px;
+  border: 10px inset #f2f2f2;
+  border-radius:9px;
+  margin-bottom:10px;
+}
+
+#barChart {
+  height:500px;
+  width:65%;
+  border: 10px inset #f2f2f2;
+  border-radius:9px;
+  margin-bottom: 10px;
+}
+
+#description1{
+  display:block;
+  width:65%;
+  background-color: white;
+  border-radius:8px;
+  font-size:25px;
+  margin-bottom: 100px;
+  padding:20px;
+  font-family: "Raleway"
+}
+
+#description2 {
+  display:block;
+  width:65%;
+  background-color: white;
+  border-radius:8px;
+  font-size:25px;
+  margin-bottom: 100px;
+  padding:20px;
+  font-family: "Raleway"
+}
+
+#description3 {
+  display:block;
+  width:65%;
+  background-color: white;
+  border-radius:8px;
+  font-size:25px;
+  margin-bottom: 100px;
+  padding:20px;
+  font-family: "Raleway"
+}
+
+#conclusion {
+  background-color: #d9d9d9;
+  width:65%;
+  border-radius:8px;
+  height:500px;
+  margin-bottom: 30px;
+}
+
+#penguin {
+  width:40%;
+  height:100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  display:inline-block;
+}
+h4 {
+  display: inline-block;
+  font-family: "Oswald";
+  font-size: 30px;
+  vertical-align: top;
+}
+
+#conclusionText {
+  display:inline-block;
+  vertical-align: top;
+  width:59%;
+  font-family: "Raleway";
+  font-size: 20px;
+  padding: 20px;
+  line-height: 35px;
+}
+
+.zc-ref {
+  display: none;
+}
+
+#footer {
+  background-image: url("../img/stop.png");
+  background-position: center;
+  background-size: cover;
+  text-align:right;
+  padding:75px;
+}
+
+#fb {
+  width:5%;
+  margin-right:20px;
+  align-content:center;
+  padding-top,padding-bottom: 30px;
+}
+
+#twitter {
+  width:5%;
+  padding-top,padding-bottom: 30px;
+  margin-right:20px;
+}
+
+#insta {
+  width:5%;
+  padding-top,padding-bottom: 30px;
+}
